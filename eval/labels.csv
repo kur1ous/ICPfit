@@ -1,0 +1,7 @@
+domain,human_score,notes
+stripe.com,5,Replace these example rows with your own hand-labeled set
+vercel.com,5,Aim for 20-30 companies spanning the full 1-5 range
+datadoghq.com,5,Score each yourself BEFORE looking at model output
+mailchimp.com,3,Mix in clear non-fits so agreement is meaningful
+shopify.com,4,
+mcdonalds.com,1,Obvious non-fit (not a B2B software company)
