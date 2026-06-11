@@ -25,7 +25,7 @@ def _setup_logging() -> None:
 
 def _print_human(rec: EnrichmentRecord) -> None:
     r = rec.result
-    bar = "★" * r.icp_fit_score + "☆" * (5 - r.icp_fit_score)
+    bar = "*" * r.icp_fit_score + "-" * (5 - r.icp_fit_score)
     typer.echo("")
     typer.secho(f"{r.company_name}  ({rec.domain})", bold=True)
     typer.echo(f"  ICP fit:    {bar}  {r.icp_fit_score}/5   [confidence: {r.confidence.value}]")
